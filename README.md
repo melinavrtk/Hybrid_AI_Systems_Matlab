@@ -10,7 +10,7 @@ This repository features advanced MATLAB implementations of hybrid intelligent s
 ### 2. Neuro-Fuzzy Systems (ANFIS)
 * **`adam_and_anfis_xor.m` (Part 2)**: Solves the non-linear **3-bit XOR problem** using an **Adaptive Neuro-Fuzzy Inference System (ANFIS)**. Utilizes grid partitioning (`genfis`) with Gaussian membership functions and zero-order Sugeno models, showcasing rapid RMSE error convergence over training epochs.
 
-![ANFIS Training Error](anfis_error.png)
+![ANFIS Training Error](anfis_xor_error.png)
 
 ### 3. Regression, Regularization & Advanced Optimization
 * **`boston_regression_optimization.m`**: A comprehensive script built on the Boston Housing dataset, covering:
@@ -21,4 +21,4 @@ This repository features advanced MATLAB implementations of hybrid intelligent s
 ### 4. Fuzzy Control Systems (Mamdani & Sugeno TSK)
 * **`hybrid_fuzzy_sugeno_controller.m`**: Complete multi-rule Mamdani fuzzy controller for lighting systems and a **Sugeno-type (TSK) controller** for multi-variable environmental control (Ground Humidity vs. Temperature). Generates 3D control surfaces (`surf`) and evaluates performance across specific operational scenarios.
 
-![Sugeno Control Surface](sugeno_surface.png)
+![Sugeno Control Surface](sugeno_control_surface.png)
