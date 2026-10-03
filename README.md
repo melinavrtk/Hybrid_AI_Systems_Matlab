@@ -22,3 +22,11 @@ This repository features advanced MATLAB implementations of hybrid intelligent s
 * **`hybrid_fuzzy_sugeno_controller.m`**: Complete multi-rule Mamdani fuzzy controller for lighting systems and a **Sugeno-type (TSK) controller** for multi-variable environmental control (Ground Humidity vs. Temperature). Generates 3D control surfaces (`surf`) and evaluates performance across specific operational scenarios.
 
 ![Sugeno Control Surface](sugeno_control_surface.png)
+
+## Acknowledgments & Context
+The foundational concepts, algorithms, and initial MATLAB scripts for these projects were developed as part of my undergraduate coursework at the **University of West Attica (Biomedical Engineering)**. 
+
+The current repository represents a curated, cleaned, and well-documented collection of those assignments. The code has been organized to serve as a clear, accessible reference and tutorial for computational intelligence and fuzzy logic applications using MATLAB.
+
+---
+*Curated and documented by a final-year Biomedical Engineering student (University of West Attica), specializing in AI and Medical Data Science.*
